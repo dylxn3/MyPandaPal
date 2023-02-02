@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "MyPandaPal",
+  "description": "Take Care of Your Panda as Your Own!",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "chrome_url_overrides": {
+      "newtab": "tamagotchi.html"
+  },
+
+  "permissions": [
+    "alarms",
+    "activeTab",
+    "background",
+    "storage",
+    "https://fonts.googleapis.com/css?family=Press+Start+2P",
+    "http://fonts.googleapis.com/",
+    "https://fonts.googleapis.com/"
+  ]
+}

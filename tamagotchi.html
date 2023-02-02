@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <!-- App's own CSS !-->
+  <link rel="stylesheet" href="tamagotchi.css">
+</head>
+
+<body>
+  <div class="left-background-picture">
+
+  </div>
+  <div class="app">
+    <h1 class="top-title" style="font-family:'Press Start 2P'">My Panda Pal Tracker!</h1>
+    
+    <div class="middle">
+      <div class="middle-left-instructions">
+        <p>Eat +50</p>
+        <p>Drink +40</p>
+        <p>Exercise +30</p>  
+        <p>Sleep +100</p>  
+
+      </div>
+      
+      <div class="middle-middle-picture">
+        <div class="normal-panda" id="normal-panda"></div>
+        <div class="happy-panda" id="happy-panda"></div>
+        <div class="dead-panda" id="dead-panda"></div>
+        <div class="crying-panda" id="crying-panda"></div>  
+      </div>
+
+
+
+      <div class="middle-right-stats">
+        <p>Hunger: <span id="hunger">loading...</span></p>
+        <p>Thirst: <span id="thirst">loading...</span></p>
+        <p>Happiness: <span id="happiness">loading...</span></p>
+        <p>Energy: <span id="energy">loading...</span></p>
+        <p>Age: <span id="age">loading...</span> days</p>
+      </div>
+    </div>
+
+
+    <div class="bottom-button">
+      <button class="button" id="pet-feed">Feed</button>
+      <button class="button" id="pet-drink">Drink</button>
+      <button class="button" id="pet-exercise">Exercise</button>
+      <button class="button" id="pet-sleep">Sleep</button>
+    </div>
+  </div>
+    <!-- http://jquery.com/ -->
+  <script src="jquery-3.2.1.js"></script>
+    <!-- Javascript !-->
+  <script src="tamagotchi.js"></script>
+
+</body>
+</html>
